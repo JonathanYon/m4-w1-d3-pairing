@@ -5,6 +5,7 @@ import WarningSign from './Component/WarningSign';
 import SingleBook from './Component/SingleBook';
 import romance from  "./Data/romance.json"
 import BookList from './Component/BookList';
+import FilterList from './Component/FilterList';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <MyBadge text="This is My Badge" color="success" />
       <SingleBook book={romance[0]} />
       <BookList books={romance} />
+      <FilterList books={romance} />
     </div>
   );
 }
