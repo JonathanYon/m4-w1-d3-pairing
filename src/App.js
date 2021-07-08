@@ -14,7 +14,7 @@ function App() {
       <WarningSign text="This is a text for the alert" />
       <MyBadge text="This is My Badge" color="success" />
       <SingleBook book={romance[0]} />
-      <BookList books={romance} />
+      {/* <BookList books={romance} /> */}
       <FilterList books={romance} />
     </div>
   );

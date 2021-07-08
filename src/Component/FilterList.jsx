@@ -14,6 +14,8 @@ export default class FilterList extends Component {
             search: e.target.value.toLowerCase(),
             allBooks: this.props.books.filter(book => book.title.toLowerCase().indexOf(this.state.search) !== -1)
         })
+        
+
         if (e.target.value === ""){
             this.setState({
                 search: "",
